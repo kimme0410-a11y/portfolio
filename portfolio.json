@@ -5,7 +5,7 @@
   "cards": [
     {"week": 1, "title": "감 테스트", "line": "2026년의 공휴일은 총 몇일인지 맞혀보는 퀴즈.",
      "judgment": "주말을 제외한 평일 중 공휴일을 정하고 그 기준을 문항 문장에 넣었다. 정답 예슬이는 구글캘린더를 보고 맞혔다.",
-     "ai": ["Claude Code", "v0", "Perplexity"], "url": "", "img": "img/w1.jpg"}
+     "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-chi.vercel.app", "img": "img/w1.jpg"}
   ],
   "proposal": null
 }
