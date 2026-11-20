@@ -11,7 +11,10 @@
      "ai": ["Claude Code", "Gemini"], "url": "https://my-classifier-blond.vercel.app", "img": ""},
     {"week": 3, "title": "비급여의료비 정리기 — 빈 폴더에서", "line": "백내장 비급여 의료비 엑셀을 끌어다 놓으면 내 처방대로 정리본과 바꾼 기록이 나옵니다. 파일은 브라우저를 떠나지 않습니다",
      "judgment": "렌즈비가 의심스러운 줄은 고치지 않고 표시했고, 기준 금액은 한 금액이 아니라 렌즈종류별 한눈 값(양안은 2로 나눔)으로 정했다. 정답과 대조하니 200줄 중 178줄이 일치했고, 섞인 92건 중 70건을 고치고 18건을 표시했으며, 놓친 4건은 진단코드가 H25.9인데 진단명이 «백내장»인 줄이었다",
-     "ai": ["Claude Code"], "url": "https://my-cleaner-six.vercel.app/", "img": ""}
+     "ai": ["Claude Code"], "url": "https://my-cleaner-six.vercel.app/", "img": ""},
+    {"week": 4, "title": "월간 보고 SQL 앱", "line": "매달 추출한 엑셀을 넣으면 정해 둔 질문의 답이 SQL과 함께 나옵니다",
+     "judgment": "재문의는 비율(해지 36.0%)과 건수(요금 2,053건)를 같이 보기로 정했다. 고객 테이블에 문의를 조인할 때는 문의를 먼저 집계하고 customers를 다 남겨 50,000행이 예상과 같은지 맞췄다. 다음 달 파일에서는 기댓값 대신 정답 파일과 대조한다",
+     "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://sql-window-9u7z.vercel.app/", "img": ""}
   ],
   "proposal": null
 }
