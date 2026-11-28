@@ -14,7 +14,10 @@
      "ai": ["Claude Code"], "url": "https://my-cleaner-six.vercel.app/", "img": ""},
     {"week": 4, "title": "월간 보고 SQL 앱", "line": "매달 추출한 엑셀을 넣으면 정해 둔 질문의 답이 SQL과 함께 나옵니다",
      "judgment": "재문의는 비율(해지 36.0%)과 건수(요금 2,053건)를 같이 보기로 정했다. 고객 테이블에 문의를 조인할 때는 문의를 먼저 집계하고 customers를 다 남겨 50,000행이 예상과 같은지 맞췄다. 다음 달 파일에서는 기댓값 대신 정답 파일과 대조한다",
-     "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://sql-window-9u7z.vercel.app/", "img": ""}
+     "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://sql-window-9u7z.vercel.app/", "img": ""},
+    {"week": 5, "title": "지표 사전", "line": "지표마다 정의서 한 장(분자 · 분모 · 기간 · 거르기 · 제외 · 최소 표본)이 있고, 카드와 대시보드는 정의서대로만 계산합니다",
+     "judgment": "월말 유지 고객 수는 customers.is_churned 대신 가입일 ≤ 말일이고 해지일이 없거나 말일 이후인 고객으로 정했다. is_churned는 지금 시점의 상태라 지난 달에 쓰면 1월이 6천 명 적게 나온다(43,297 대신 37,093). 버린 정의와 이유도 정의서에 함께 남겼다",
+     "ai": ["Claude Code (MCP)", "DuckDB-WASM"], "url": "https://metric-dictionary-flax-ten.vercel.app", "img": ""}
   ],
   "proposal": null
 }
